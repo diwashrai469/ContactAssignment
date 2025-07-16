@@ -40,13 +40,13 @@ git clone https://github.com/diwashrai469/ContactAssignment.git
 cd ContactAssignment
 
 2. Open in Your Preferred IDE
-You can use VS Code, WebStorm, or any editor of your choice.
+   You can use VS Code, WebStorm, or any editor of your choice.
 
 3. Install Dependencies using IDE terminal
-npm install
+   npm install
 
 4. Start the Development Server
-npm run dev
+   npm run dev
 
 This will start the local dev server. You’ll see a terminal output like:
 Local: http://localhost:5173/
