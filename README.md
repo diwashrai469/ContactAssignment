@@ -6,7 +6,7 @@ A sleek and modern web application that displays user contact details in a clean
 
 ## 🚀 Live Demo
 
-🌐 **[View Deployed Site on Netlify](https://contactsresonate.netlify.app/)**  
+🌐 **[View Deployed Site](https://contactsresonate.netlify.app/)**  
 
 
 ---
