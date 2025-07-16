@@ -1,69 +1,69 @@
-# React + TypeScript + Vite
+# 📇 Contact WebApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and modern web application that displays user contact details in a clean and visually appealing UI/UX. Built using modern frontend technologies with a focus on responsiveness and simplicity.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+🌐 **[View Deployed Site on Netlify](https://your-netlify-url.netlify.app)**  
+*(Replace with actual deployed URL)*
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠️ Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- ⚛️ **React** – For building dynamic UI components  
+- 🔠 **TypeScript** – Type-safe development  
+- 🎨 **Tailwind CSS** – Utility-first styling for modern UI  
+- 🌐 **Netlify** – Seamless deployment platform
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🧩 Version Info
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- **Node.js**: `v23.11.0`  
+- **TypeScript**: `~5.8.3`  
+- **Tailwind CSS**: `^4.1.11`
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 🧪 How to Run Locally
+
+Follow the steps below to get the project running on your local machine:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/contact-webapp.git
+cd contact-webapp
+2. Open in Your Preferred IDE
+You can use VS Code, WebStorm, or any editor of your choice.
+
+3. Install Dependencies
+bash
+Copy
+Edit
+npm install
+4. Start the Development Server
+bash
+Copy
+Edit
+npm run dev
+This will start the local dev server. You’ll see a terminal output like:
+
+arduino
+Copy
+Edit
+Local: http://localhost:5173/
+Click the URL to open the app in your browser.
+
+📌 Note
+Node.js must be installed on your system to run this project.
+You can verify installation by running:
+
+bash
+Copy
+Edit
+node --version
+If not installed, download it from https://nodejs.org
