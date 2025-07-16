@@ -6,8 +6,8 @@ A sleek and modern web application that displays user contact details in a clean
 
 ## 🚀 Live Demo
 
-🌐 **[View Deployed Site on Netlify](https://your-netlify-url.netlify.app)**  
-*(Replace with actual deployed URL)*
+🌐 **[View Deployed Site on Netlify](https://contactsresonate.netlify.app/)**  
+
 
 ---
 
